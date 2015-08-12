@@ -1,0 +1,12 @@
+1001 process added to new queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+Processes in Ready Queue
+Processes in waiting queue
+Processes in New Queue
+1001
