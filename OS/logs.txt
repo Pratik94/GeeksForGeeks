@@ -1,0 +1,111 @@
+1001 process added to new queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+Processes in Ready Queue
+Processes in waiting queue
+Processes in New Queue
+1001
+1002 process added to new queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+Processes in Ready Queue
+Processes in waiting queue
+Processes in New Queue
+1002
+CPU 1 : Process pid: 1001type: running
+1003 process added to new queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+Processes in Ready Queue
+Processes in waiting queue
+1001
+Processes in New Queue
+1003
+CPU 2 : Process pid: 1002type: running
+---------------------------------------------------------------- 
+
+1002 was paused from running state in CPU 2 and added to ready queue in paused state 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+After pausing : 
+
+Processes in Ready Queue: 
+
+abcdef1002
+Processes in waiting queue
+1001
+Processes in New Queue
+1003
+------------------------------------------------- 
+
+1002was resumed from pause state in ready queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+1001was added from waiting to ready queue because IO got over.
+
+------------------------------------------------- 
+
+After Resuming
+
+Processes in Ready queue
+Processes in waiting queue
+1002
+Processes in New Queue
+CPU 2 : Process pid: 1003type: running
+CPU 3 : Process pid: 1001type: running
+1004 process added to new queue 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------- 
+
+Processes in Ready Queue
+Processes in waiting queue
+1002
+Processes in New Queue
+1004
+CPU 2 : Process pid: 1003type: running
+CPU 3 : Process pid: 1001type: running
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+1002was added from waiting to ready queue because IO got over.
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
+------------------------------------------------ 
+
+New CPU CYCLE STARTED 
+
